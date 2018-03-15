@@ -16,9 +16,8 @@ Il faut ensuite rentrer le mouvement du joueur case par case: H = haut, B= bas, 
 
 Par exemple si je veux faire monter la colonne de gauche (I i) et bouger de trois vers la droite je dois rentrer : iDDD.
 
-Note: on peut bouger des cartes sans se déplacer mais on ne peut pas se déplacer sans en bouger préalablement.
-Exemple: je peux faire: I
-                        m
-                        lDDD
-        je ne peux pas faire: DDD
-                              GDH
+Note: on peut bouger des cartes sans se déplacer mais on ne peut pas se déplacer sans en bouger préalablement.                        
+Exemple: je peux faire pour commencer: I puis m puis lDDD mais je ne peux pas faire: DDD ni GDH
+                              
+ Le jeu est jouable avec le .exe mais aussi avec les fichier situés dans le dossier du même nom.
+ Attention cepandant car le compiler MinGw fournit avec code blocks ne peut pas lancer le jeu il faut utiliser celui la:http://mingw-w64.org/doku.php/download
